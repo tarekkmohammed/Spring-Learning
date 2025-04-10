@@ -1,4 +1,4 @@
-package com.learning.model;
+package model.user;
 
 
 import javax.persistence.Entity;

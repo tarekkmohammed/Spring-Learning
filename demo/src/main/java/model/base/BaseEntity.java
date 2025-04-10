@@ -1,4 +1,4 @@
-package com.example.model.base;
+package model.base;
 
 
 import javax.persistence.GeneratedValue;
