@@ -2,6 +2,14 @@ spring:
   config:
     activate:
       on-profile: dev
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=demo;currentSchema=dbo;encrypt=false;trustServerCertificate=true;integratedSecurity=false
+    username: MotDataEntry
+    password: M0tData$ntry
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+
 server:
   port: 8080
-
+  servlet:
+    context-path: /demo
